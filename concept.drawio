@@ -1,1 +1,57 @@
-<mxfile host="www.draw.io" modified="2020-01-22T00:05:04.351Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0" etag="K9usFmHcn94I8NQkldwX" version="12.5.5" type="github"><diagram id="Lz_R--4SCJsjy1oKleS-" name="Page-1">1VbLbtswEPwaHh3o4UdzrO24ySFACxfoMaCktcSCIllqZdn++pIWKVmwgygBArSAD9Qsd5ecnZFM4lV5+KapKp5lBpxEQXYg8ZpEUTiNImJ/QXZskcV02gK5Zpnb1ANbdgIHBg6tWQbVYCNKyZGpIZhKISDFAUa1ls1w207yYVdFc7gCtinl1+gvlmHRol9mQY8/AssL3zkMXKSkfrMDqoJmsrmA4gcSr7SU2K7Kwwq4Jc/z0uZtXol2B9MgcEzC6TvMvwZPP47Rdl+UK7E5zR4nrsqe8tpdmERzbuotM7Y3y9wuDbeoJb9TRx9MtI9VdVKlmiWgfcyc4CL3Rjkys3s47JAslk8C44gsTOdgQuwNNvrM5kVktr5ue7sZEwh6R1M4T1pb0hGUAl25EeDRz1XLWmRgqQlNYlMwhK2ymfG6MUo2WIEld2FHEmiEw6vsh91MjRlAloDa8BW4hE4Gzgfxwj03varCucOKC0XdO4w6Iedd6X7WZuHG/Y7RR2NGr2Ui8ZmK1ZUE3hzzh5XhA5Wiwjqb06q9+/xPbc2yVHxS9U8++bc8viBwkMrUSMvsZW9eRYvlz4ZVeBZYd4i2sG+5Hn08zgRQfXdotTqnpZWJ22zUwWXKcDw/VOQ1N+VON8thrcXZIt4QY8uqOuGsKnrWr03zlo3+ObNEI70Szj7LLPFosyzNZyyHdxkl+W8HE95/4mSs9Luv4zl28R8jfvgL</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-27T22:53:45.542Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0" etag="kTuafG00N0X0hmwzEoZo" version="12.5.8" type="github">
+  <diagram id="Lz_R--4SCJsjy1oKleS-" name="Page-1">
+    <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-1" target="s6D-itCChKcMX1kxZAHD-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-1" value="ROS Control App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-2" target="s6D-itCChKcMX1kxZAHD-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-2" value="Camera processing modul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-3" target="s6D-itCChKcMX1kxZAHD-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-14" value="&lt;b&gt;/joy_teleop/cmd_vel&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="s6D-itCChKcMX1kxZAHD-10">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint x="-76" y="-13" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-3" value="linear.x = velocity&lt;br&gt;angular.z = angularVelocity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="330" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-4" target="s6D-itCChKcMX1kxZAHD-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-4" value="linear.x = velocity&lt;br&gt;angular.z = angularVelocity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="330" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-7" target="s6D-itCChKcMX1kxZAHD-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-7" value="&lt;div&gt;[processing.py]&lt;/div&gt;&lt;div&gt;data preparation to control the robot&lt;br&gt;/linear.x = delayLeft/Right&lt;br&gt;/linear.y = dirLeft/Right&lt;br&gt;/angular.z = stepsLeft/Right&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="190" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-12" value="&lt;div&gt;[control.py]&lt;/div&gt;&lt;div&gt;activate the Left/Right stepper by the RpiMotorLib&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-15" value="&lt;b&gt;/camera_command&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-17" value="&lt;b&gt;/robCommandLeft&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="360" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="s6D-itCChKcMX1kxZAHD-18" value="&lt;b&gt;/robCommandRight&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="380" width="150" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
