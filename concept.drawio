@@ -1,28 +1,28 @@
-<mxfile host="www.draw.io" modified="2020-03-11T14:36:22.079Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0" etag="XcsK5fHFjqyugaP6Huo0" version="12.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-12T22:15:46.096Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="TzodgbCuKrN5ky4TGEbw" version="12.8.4" type="github">
   <diagram id="Lz_R--4SCJsjy1oKleS-" name="Page-1">
-    <mxGraphModel dx="695" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s6D-itCChKcMX1kxZAHD-1" value="&lt;b&gt;ROS Control App&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="170" y="180" width="180" height="35" as="geometry" />
+          <mxGeometry x="605" y="112.5" width="180" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s6D-itCChKcMX1kxZAHD-2" target="s6D-itCChKcMX1kxZAHD-7">
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s6D-itCChKcMX1kxZAHD-2" target="s6D-itCChKcMX1kxZAHD-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="625" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s6D-itCChKcMX1kxZAHD-2" value="&lt;div&gt;&lt;b&gt;[detect_stripe.py]&lt;/b&gt;&lt;/div&gt;&lt;div&gt;image processing by cv2 library&lt;br&gt;get percentage of whitecontent&lt;br&gt;&lt;/div&gt;&lt;div&gt;linear.x = velocity&lt;br&gt;angular.z = angularVelocity&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="565" y="125" width="220" height="90" as="geometry" />
+          <mxGeometry x="360" y="85" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s6D-itCChKcMX1kxZAHD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="s6D-itCChKcMX1kxZAHD-1" target="s6D-itCChKcMX1kxZAHD-7" edge="1">
+        <mxCell id="s6D-itCChKcMX1kxZAHD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="s6D-itCChKcMX1kxZAHD-1" target="s6D-itCChKcMX1kxZAHD-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s6D-itCChKcMX1kxZAHD-14" value="/joy_teleop/cmd_vel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="s6D-itCChKcMX1kxZAHD-10" vertex="1" connectable="0">
           <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
-            <mxPoint x="-71.03" y="-8.790000000000001" as="offset" />
+            <mxPoint x="59" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s6D-itCChKcMX1kxZAHD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="s6D-itCChKcMX1kxZAHD-7" target="s6D-itCChKcMX1kxZAHD-12" edge="1">
@@ -35,7 +35,7 @@
           <mxGeometry x="340" y="390" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s6D-itCChKcMX1kxZAHD-15" value="/joy_cv/cmd_vel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="240" width="110" height="20" as="geometry" />
+          <mxGeometry x="470" y="195" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s6D-itCChKcMX1kxZAHD-17" value="/robCommandLeft" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="340" width="130" height="20" as="geometry" />
@@ -43,23 +43,23 @@
         <mxCell id="s6D-itCChKcMX1kxZAHD-18" value="/robCommandRight" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="360" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="1T_wPQCqn_BGrHzoU8FE-2" target="s6D-itCChKcMX1kxZAHD-2">
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="1T_wPQCqn_BGrHzoU8FE-2" target="s6D-itCChKcMX1kxZAHD-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-2" value="ROS Package PiCamera" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="585" y="40" width="180" height="35" as="geometry" />
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-2" value="ROS Package PiCamera" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="380" width="180" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-14" value="/raspicam_node/image/compressed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="90" width="230" height="20" as="geometry" />
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-14" value="/raspicam_node/image/compressed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="50" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-15" value="&lt;div&gt;SmartPhone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="170" y="420" width="120" height="30" as="geometry" />
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-15" value="&lt;div&gt;SmartPhone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="700" y="420" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-16" value="&lt;div&gt;Notebook&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="170" y="340" width="120" height="30" as="geometry" />
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-16" value="&lt;div&gt;Notebook&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="700" y="340" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1T_wPQCqn_BGrHzoU8FE-17" value="Raspberry Pi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="170" y="380" width="120" height="30" as="geometry" />
+        <mxCell id="1T_wPQCqn_BGrHzoU8FE-17" value="Raspberry Pi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="700" y="380" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
